@@ -120,27 +120,143 @@
           <img class="img-circle" alt="Zawad" style="width: 200px; height: 200px;" src="docs-assets/img/Z.jpg">
           <h2>Zawad</h2>
           <!-- <p>Hello World!<br> I am a Sophomore at Virginia Tech pursuing a Bachelor's Degree in Computer Engineering. I was born and raised in Sterling, Virginia which falls under the category of "NOVA" or Northern Virginia. Some of my interests include running, olympic taekwondo, and taking apart in sports in general. My friends and I have created this web page in an effort to develop and deliever our brand.</p> -->
-          <p><a class="btn btn-default" href="docs-assets/resumes/zawadResume.pdf" onclick="window.open(this.href); return false;" role="button">Zawad's Resume »</a></p>
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#zawadModal">View details »</a></p>
         </div><!-- /.col-lg-3 -->
         <div class="col-lg-3">
           <img class="img-circle" alt="Vishal" style="width: 200px; height: 200px;" src="docs-assets/img/V.jpg">
           <h2>Vishal</h2>
-          <!-- <p> Ello Ello!<br>I am Sophomore at Virginia Tech majoring in Mechanical Engineering. In the past, I have taking on varsity sports while being academically successful, and actively involved in clubs. My objective as of now is to gain experience designing, collaborating, and working hands on as an intern or Co-op while also perusing my mechanical engineering Degree. Finally, my ambition and dream is to help play a role in creating the future technology of this world.</p> -->
-          <p><a class="btn btn-default" href="docs-assets/resumes/vishalResume.pdf" onclick="window.open(this.href); return false;" role="button">Vishal's Resume »</a></p>
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#vishalModal">View details »</a></p>
         </div><!-- /.col-lg-3 -->
         <div class="col-lg-3">
           <img class="img-circle" alt="Joe" style="width: 200px; height: 200px;" src="docs-assets/img/J.jpg">
           <h2>Joe</h2>
-          <!-- <p>My name is Joe Fletcher and I am a Sophomore at Virginia Tech majoring in Computer Science. I am a technology fanatic, die-hard Hokie, and excited for the incredible opportunities Tech and the world has to offer.</p> -->
-          <p><a class="btn btn-default" href="docs-assets/resumes/joeResume.pdf" onclick="window.open(this.href); return false;" role="button">Joe's Resume »</a></p>
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#joeModal">View details »</a></p>
         </div><!-- /.col-lg-3 -->
           <div class="col-lg-3">
           <img class="img-circle" alt="Shawn" style="width: 200px; height: 200px;" src="docs-assets/img/S.jpg">
           <h2>Shawn</h2>
-          <!-- <p>HI<br> I am Sophomore at Virginia Tech majoring in Computer Science. AND I AM A BOSS AT LIFE</p> -->
-          <p><a class="btn btn-default" href="docs-assets/resumes/shawnResume.pdf" onclick="window.open(this.href); return false;" role="button">Shawn's Resume »</a></p>
+          <p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#shawnModal">View details » »</a></p>
         </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
+
+ <!-- Modal's -->
+ <!-- Zawad's Modal -->
+  <div id="zawadModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Zawad Chowdhury</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row featurette">
+          <div class="col-md-5">
+          <img src="docs-assets/img/zawadProf.png" class="img">
+          </div>   
+            <div class="col-md-7">
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead" >I am a Sophomore at Virginia Tech pursuing a Bachelor's Degree in Computer Engineering. I was born and raised in Sterling, Virginia which falls under the category of "NOVA" or Northern Virginia. Some of my interests include running, olympic taekwondo, and taking apart in sports in general. My friends and I have created this web page in an effort to develop and deliever our brand.</p>
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead"><a href="http://www.saseconnect.org/news/saseprints/153-saseprints-spotlight-zawad-chowdhury" onclick="window.open(this.href); return false;">SASEPrints Spotlight</a></p>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"href="docs-assets/resumes/zawadResume.pdf" onclick="window.open(this.href); return false;">My Resume »</button>
+        </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+  </div>
+
+  <!-- Vishal's Modal -->
+  <div id="vishalModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Vishal Sangam</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row featurette">
+          <div class="col-md-5">
+          <img src="docs-assets/img/vishalProf.png" class="img">
+          </div>   
+            <div class="col-md-7">
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead">I am Sophomore at Virginia Tech majoring in Mechanical Engineering. In the past, I have taking on varsity sports while being academically successful, and actively involved in clubs. My objective as of now is to gain experience designing, collaborating, and working hands on as an intern or Co-op while also perusing my mechanical engineering Degree. Finally, my ambition and dream is to help play a role in creating the future technology of this world.</p>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"href="docs-assets/resumes/vishalResume.pdf" onclick="window.open(this.href); return false;"> My Resume »</button>
+        </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+  </div>
+  
+  <!-- Joe's Modal -->
+    <div id="joeModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Joe Fletcher</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row featurette">
+            <div class="col-md-5">
+            <img src="docs-assets/img/joeSHPE.jpg" class="img">
+            </div>   
+              <div class="col-md-7">
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead">My name is Joe Fletcher and I am a Sophomore at Virginia Tech majoring in Computer Science. I am a technology fanatic, die-hard Hokie, and excited for the incredible opportunities Tech and the world has to offer.</p>
+             <h4 class="lead" style="font-size:30px;">Articles:</h4>
+             <p class="lead"><a href="http://www.eng.vt.edu/students/featured/joe-fletcher" onclick="window.open(this.href); return false;">Virginia Tech's College of Engineering Featured Student</a></p>
+             <p class="lead"><a href="http://www.connectionnewspapers.com/news/2012/jul/09/i-had-learn-lot-my-own/" onclick="window.open(this.href); return false;">"I Had To Learn A Lot on My Own" Newspaper Article</a></p>
+          </div>
+        </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-primary"href="docs-assets/resumes/joeResume.pdf" onclick="window.open(this.href); return false;"> My Resume »</button>
+          </div>
+
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div>
+    </div>
+
+  <!-- Shawn's Modal -->
+  <div id="shawnModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title" id="myModalLabel" style="font-size:40px;">Shawn Amjad</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row featurette">
+          <div class="col-md-5">
+          <img src="docs-assets/img/shawnProf.jpg" class="img">
+          </div>   
+            <div class="col-md-7">
+             <h4 class="lead" style="font-size:30px;">About:</h4>
+             <p class="lead">I am Sophomore at Virginia Tech majoring in Computer Science. Really enjoy programming in general and in my spare time I like to work on my music and DJ various events.</p>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"href="docs-assets/resumes/shawnResume.pdf" onclick="window.open(this.href); return false;">Shawn's Resume »</button>
+        </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+  </div>
 
 
   <!-- FOOTER -->
